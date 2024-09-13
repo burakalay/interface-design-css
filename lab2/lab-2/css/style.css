@@ -1,0 +1,36 @@
+/** Step one **/
+
+/** Step two **/
+
+h1, h2, h3 {
+    font-family: 'Playfair Display', serif;
+}
+
+/** Step three **/
+
+h1 {
+    font-size: 46px; /* Adjust the size */
+    letter-spacing: 2px; /* Adjust letter spacing */
+    text-align: center; /* Center the text */
+    color: #4A90E2; /* Change font color to your choosing */
+}
+
+
+/** Step four **/
+
+body, p, ul, a {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/** Step five **/
+
+p span {
+    color: #FF5733; /* Choose a color for the span */
+}
+
+/** Step six **/
+h3 {
+    font-size: 30px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Add a text shadow */
+}
