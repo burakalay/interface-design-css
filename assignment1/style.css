@@ -1,0 +1,201 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #1c1f26; /* Dark grayish-blue background for a somber tone */
+    color: #d1d1e0;
+    height: 1500px;
+}
+
+/** the fonts **/
+@font-face{
+    font-family: "yellowRabbit";
+    font-weight: auto;
+}
+h1{
+    font-family: "yellowRabbit", "Zeyada", sans-serif;
+}
+
+h2,h3,h4,h5,h6{
+    font-family: "yellowRabbit", "Zeyada", sans-serif;
+}
+/*yuo will change them so why now yk*/
+
+p,a, li{
+    font-size: 1.2em;
+    font-family: "yellowRabbit", "Zeyada", sans-serif;
+    text-decoration: none;
+}
+/** Header**/
+Header{
+    display: flex;
+    position: fixed;
+    height: 125px;
+    width: 100%;
+    z-index: 9999;
+    background-color: #2a2d38;
+    align-items: center;
+
+}
+header div {
+    background-color: #2a2d38;
+    padding: 10px 270px;
+    background-image: url("./headerbgpng.png"); /* the path of bg img*/
+    background-position: center; /* centers the img both horizontally and vertically */
+    background-repeat: no-repeat; /* prevent the img from repeating */
+    background-size: 50%; /* reduces to img size, because of quality */
+
+}
+
+header div{
+    flex-grow: 1;
+    width: auto;
+    height: 115px;
+}
+
+
+header menu{
+    display: flex;
+    list-style: none;
+}
+header li{
+    padding: 0 10px; /**0 top to bottom and 10 left and right**/
+}
+header li a{
+    color: #0e0e0e;
+}
+
+/** masthead **/
+.assignment-masthead{
+    height: 30vh; 
+    background-color: #1a1c24;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 150px; /* padding to avoid overlap with the fixed header */
+
+}
+
+.assignment-masthead h1{
+    font-size: 10em;
+    color: #9da3b4;
+    letter-spacing: 1.75px;
+    text-shadow: 4px 2px 4px rgba(0,0,0,.7);
+    padding: 50px 10px;
+}
+
+/** the main content**/
+.music-video{
+    height: 320px;
+    background-size: cover;
+    background-color: #2b2e3a;
+   
+}
+
+#music-video {
+    display: flex;
+    justify-content: center; /* centers the iframe horizontally */
+    align-items: center;     /*centers vertically */
+    height: 60vh;           /*section height */
+    background-image: url("./music-video-bg.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding-top: 100px;
+}
+
+
+p {
+    font-size: 50px;
+    line-height: 1.5;
+}
+
+.music-video div{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: coloumn;
+    padding: 0 5%;
+    color: #b0b3c1;
+    background-color: rgba(44, 62, 80, 0.7);
+    text-shadow: 4px 3px 4px rgba(0, 0, 0, 0.7);
+}
+
+
+.lyrics {
+    padding: 5%;
+    text-align: center;
+    width: 80%; /
+    height: 400px; /* cixed height for scrollable area */
+    margin: 0 auto; /*  xenter the lyrics box horizontally */
+    overflow-y: scroll; /* enable vertical scrolling */
+    padding: 20px; /* padding inside the scrollable box */
+    margin-bottom: 40px;
+}
+
+.lyrics h3{
+    font-size: 2.5em;
+    margin-bottom: 15px;
+}
+
+.lyrics p {
+    font-size: 2.7em;
+    color: #d1d1e0; /* light gray text to maintain a soft tone */
+}
+
+.lyrics span{
+    font-size: 2em;
+    font-weight: bold;
+    color: #b5b8cf;
+}
+
+.lyrics p:first-line{
+    font-weight: bold;
+    font-style: italic;
+}
+
+.lyrics p mark{
+    /*mark is better than span because it has semantic value*/
+    background-color: rgba(0,0,0,0);
+    color: #726da8; /* muted dark purple for a melancholic tone */
+    font-weight: 900;
+    font-size: 1.25em;
+}
+
+footer {
+    background-color: #2a2d38; 
+    color: #d1d1e0;            
+    padding: 10px;             
+    text-align: center;
+    font-size: 0.9em;
+    position: relative;
+    
+.footer-content {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.footer-content p {
+    margin: 5px 0;           
+}
+
+.social-media {
+    list-style-type: none;
+    padding: 0;
+    margin: 5px 0;             
+}
+
+.social-media li {
+    display: inline;
+    margin: 0 5px;             
+}
+
+.social-media li a {
+    color: #9da3b4;
+    text-decoration: none;
+}
+
+.social-media li a:hover {
+    text-decoration: underline;
+}}
